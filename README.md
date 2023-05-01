@@ -16,7 +16,7 @@ the editor use want to use is your Choice but here is a list of some recommended
 the first thing ill teach you is print(). in python yoou dont need ; {} pyython use indentation istead of {} so yes indentation matters in Python.
 heres how to use print:
 ````
-print("Hello, Python!") //in programming "" or '' specifies that the data is a string
+print("Hello, Python!") # in programming "" or '' specifies that the data is a string
 ````
 
 ### Variables
@@ -57,7 +57,7 @@ example:
 ````
 for i in range(0, 11):
     print(i)
-// output: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+# output: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 ````
 
 'while' loops do something while a condition is true:
@@ -67,7 +67,7 @@ example:
 while(true):
     print("this is a")
     print("While loop")
-// Ofcourse it runs for ever because the condition is always true
+# Ofcourse it runs for ever because the condition is always true
 ````
 
 ## getting input
@@ -106,15 +106,16 @@ def question(question, AAnswer, BAnswer, APoints, BPoints):
     print("--------------")
     print("A: " + AAnswer)
     print("B: " + BAnswer)
+    answer = ""
     answer = input("answer: ")
-    if answer == "a" or "A":
+    if answer == "a":
         return APoints
     else:
-        if answer == "b" or "B":
+        if answer == "b":
             return BPoints
 
-points += question("who invented python", "Guido van rossum", "dennis richie", 1, 0)
-points += question("What is faster", "Python", "Java", 0, 1)
-// add more questions if you want
-print("you got: " + String(points))
+points = points + question("who invented python", "Guido van rossum", "dennis richie", 1, 0)
+points = points + question("What is faster", "Python", "Java", 0, 1)
+# add more questions if you want
+print("you got: " + str(points))
 ````
