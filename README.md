@@ -13,7 +13,7 @@ the editor use want to use is your Choice but here is a list of some recommended
 7. IntelliJ IDEA: with the python plugin its a good python IDE
 
 ## The basics
-the first thing ill teach you is print(). in python yoou dont need ; {} pyython use indentation istead of {} so yes indentation matters in Python.
+the first thing ill teach you is print(). in python you dont need ; {} python use indentation instead of {} so yes indentation matters in Python.
 heres how to use print:
 ````
 print("Hello, Python!") # in programming "" or '' specifies that the data is a string
