@@ -12,6 +12,8 @@ the editor use want to use is your Choice but here is a list of some recommended
 6. Nano / Pico: Another powerfull text editor
 7. IntelliJ IDEA: with the python plugin its a good python IDE
 
+for this tutorial use what you want, even my [Python Web Playground](https://python-web-playground.efendo.repl.co)
+
 ## The basics
 the first thing ill teach you is print(). in python you dont need ; {} python use indentation instead of {} so yes indentation matters in Python.
 heres how to use print:
